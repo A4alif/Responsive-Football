@@ -180,3 +180,22 @@ a {
     line-height: 1.9;
 }
 /* vison part end */
+/* partner part start */
+.partners {
+    margin-bottom: 130px;
+}
+.partners .our_partner {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 20px;
+}
+.partners .our_partner img {
+    max-width: 150px;
+    max-height: 80px;
+}
+.partners h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* partner part end */
