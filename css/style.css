@@ -161,35 +161,47 @@ a {
     max-height: 427px;
 }
 /* highlights end */
-/* vison part start */
-.vision {
-    background-image: url(/images/vision1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    max-width: 100vw;
-    margin-bottom: 160px;
+/* news letter start */
+.newsletter {
+   background-image: linear-gradient(45deg, #27ae60,#f1c40f);
 }
-.vision_content {
-    padding: 10rem 0rem;
-}
-.vision_content h2 {
-    color: whitesmoke;
-    font-size: 38px;
-    font-weight: 500;
-    margin-bottom: 15px;
-}
-.vision_content p {
+.newsletter_text {
+    text-align: center;
+    padding: 50px 0;
     color: white;
-    font-size: 16px;
-    margin-bottom: 30px;
-    line-height: 1.9;
 }
-/* vison part end */
+.newsletter .sub {
+    text-align: center;
+    padding-bottom: 80px;
+}
+.newsletter .sub input {
+    width: 450px;
+    padding: 16px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+.newsletter .sub button {
+    padding: 14px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+.newsletter .sub button:hover{
+   background-color: #27ae5fb6;
+    
+
+}
+/* news letter end */
 /* partner part start */
 .partners {
     margin-bottom: 130px;
+    margin-top: 40px;
 }
 .partners .our_partner {
     display: grid;
@@ -307,12 +319,9 @@ a {
             max-height: 250px;
             margin-top: 20px;
         }
-        /* vison part start */
-        .vision {
-            margin-bottom: 60px;
-        }
-        .vision_content {
-            text-align: center;
+        /* newsletter start */
+        .newsletter .sub button {
+           margin-top: 20px;
         }
         /* partner part start */
         .partners {
@@ -398,19 +407,7 @@ a {
     .highlight .left-side button {
         margin-left: 20px;
     }
-    /* vison part */
-    .vision_content h2 {
-        font-size: 30px;
-        margin-left: 20px;
-    }
-    .vision_content button {
-        margin-left: 20px;
-    }
-    .vision_content p {
-        font-size: 12px;
-        margin-bottom: 30px;
-        margin-left: 20px;
-    }
+   
     /* partner */
     .partners .our_partner {
         grid-template-columns: repeat(3,1fr);
