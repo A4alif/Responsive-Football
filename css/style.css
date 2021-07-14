@@ -199,3 +199,32 @@ a {
 }
 
 /* partner part end */
+/* footer part start */
+footer {
+    /* background-color: #f1f1f1; */
+}
+.footer_part {
+    text-align: center;
+    
+}
+.footer_part p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 63px;
+}
+.footer_img img {
+    max-width: 430px;
+    max-height: 110px;
+}
+.footer_part .social_icons .fab {
+    width: 32px;
+    height: 32px;
+    background-color: grey;
+    color: whitesmoke;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 7px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+/* footer part end */
