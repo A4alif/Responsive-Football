@@ -235,9 +235,102 @@ a {
 
 /* Media queries start */
     /* mobile devices */
-@media (max-width: 688px){
-    
-}
+    @media (max-width: 688px){
+        .header_part {
+            height: 545px;
+        }
+        .container {
+            width: 100%;
+        }
+        .navbar {
+            display: none;
+        }
+        .banner {
+            grid-template-columns: repeat(1,1fr);
+            
+        }
+        .left_side h1 {
+            font-size: 30px;
+            margin-left: 120px;
+            margin-top: 30px;
+            
+        }
+        .left_side button {
+            margin-top: 27px;
+            margin-left: 120px;
+        }
+        .right_side img {
+            width: 300px;
+            height: 250px;
+            margin-left: 90px;
+            margin-bottom: 20px;
+        }
+        /* blog part start */
+        .blogs {
+            background-color: #f1f1f1;
+            padding-top: 70px;
+            
+        }
+        .blogs .players{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-row-gap: 27px;
+            /* margin-left: 95px; */
+            place-items: center ;
+            
+        }
+       /* highlight start */
+       .highlights{
+        padding-top: 100px;
+        background-color:#f1f1f1;
+        padding-bottom: 45px;
+        place-items: center;
+        }
+        .highlight{
+            grid-template-columns: repeat(1,1fr);
+            place-items: center;
+
+        }
+        .highlight .left-side {
+            text-align: center;
+        }
+        .highlight .left-side h2 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        .highlight .left-side p{
+            font-size: 12px;
+            margin-bottom: 24px;
+        }
+        .highlight .right-side img {
+            max-width: 300px;
+            max-height: 250px;
+            margin-top: 20px;
+        }
+        /* vison part start */
+        .vision {
+            margin-bottom: 60px;
+        }
+        .vision_content {
+            text-align: center;
+        }
+        /* partner part start */
+        .partners {
+            margin-bottom: 130px;
+        }
+        .partners .our_partner {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-column-gap:55px;
+            place-items: center;
+            grid-row-gap: 20px;
+        }
+        /* footer */
+        .footer_img img {
+            max-width: 300px;
+            max-height: 110px;
+        }
+    }
     /* tablet devices */
 @media (min-width:688px) and (max-width:992px){
     .container {
