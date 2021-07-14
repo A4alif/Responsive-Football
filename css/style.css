@@ -163,7 +163,7 @@ a {
 /* highlights end */
 /* vison part start */
 .vision {
-    background-image: url(/images/vision.jpg);
+    background-image: url(/images/vision1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -181,7 +181,7 @@ a {
     margin-bottom: 15px;
 }
 .vision_content p {
-    color: whitesmoke;
+    color: white;
     font-size: 16px;
     margin-bottom: 30px;
     line-height: 1.9;
