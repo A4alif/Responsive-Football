@@ -125,5 +125,30 @@ a {
 }
 /* blog part end */
 /* highlights start */
-
+.highlights{
+    padding-top: 165px;
+    background-color:#f1f1f1;
+}
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 66px;
+    align-items: center;
+}
+.highlight .left-side h2 {
+    font-size: 38px;
+    font-style: bold;
+    color: #0A0826;
+    margin-bottom: 8px;
+}
+.highlight .left-side p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin-bottom: 24px;
+}
+.highlight .right-side img {
+    max-width: 567px;
+    max-height: 427px;
+}
 /* highlights end */
